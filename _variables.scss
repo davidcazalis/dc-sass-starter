@@ -1,0 +1,59 @@
+// ==========================================================================
+// VARIABLES
+// ==========================================================================
+
+// Color swatch
+$_color-brand: #1e90ff !default;
+
+$_color-white: #fff !default;
+$_color-grey: #666 !default;
+$_color-grey-light: lighten($_color-grey, 50%) !default;
+$_color-grey-dark: #333 !default;
+$_color-black: #000 !default;
+
+// Base
+// ==========================================================================
+
+// Typography
+$_base-font-size: 16px !default;
+$_base-font-line-height: 1.5 !default;
+$_base-font-space: $_base-font-size * $_base-font-line-height !default;
+$_base-font-family: sans-serif !default;
+$_base-font-color: $_color-grey-dark !default;
+
+$_base-font-size-h1: 32px !default;
+$_base-font-size-h2: 28px !default;
+$_base-font-size-h3: 24px !default;
+$_base-font-size-h4: 18px !default;
+$_base-font-size-h5: 16px !default;
+$_base-font-size-h6: 14px !default;
+
+$_base-font-links-color: $_color-brand !default;
+$_base-font-links-color-hover: darken($_base-font-links-color, 5%) !default;
+$_base-font-links-color-focus: darken($_base-font-links-color, 10%) !default;
+$_base-font-links-text-decoration: none;
+
+// Tables
+$_base-tables-padding: $_base-font-space !default;
+$_base-tables-border-width: 1px;
+$_base-tables-border-color: $_color-grey-light;
+
+// Layout
+// ==========================================================================
+
+$_layout-space: $_base-font-space !default;
+
+// Breakpoints
+$_layout-breakpoints: (
+  small: _em(640px),
+  medium: _em(1024px),
+  large: _em(1440px)
+) !default;
+
+// Grid
+$_layout-grid: (
+  width: 960px,
+  columns: 12,
+  gutters: 15px,
+  breakpoints: $_layout-breakpoints
+) !default;
