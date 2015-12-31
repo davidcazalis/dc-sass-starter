@@ -17,10 +17,12 @@
 @import 'tool.clearfix';
 @import 'tool.media-queries';
 @import 'tool.font-face';
+@import 'tool.hidden';
 
 // Base
 // ==========================================================================
 @import 'base.reset';
+@import 'base.responsiveness';
 @import 'base.box-sizing';
 @import 'base.typography';
 @import 'base.tables';

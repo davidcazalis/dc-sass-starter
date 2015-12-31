@@ -45,9 +45,9 @@ $_layout-space: $_base-font-space !default;
 
 // Breakpoints
 $_layout-breakpoints: (
-  small: _em(640px),
-  medium: _em(1024px),
-  large: _em(1440px)
+  small: 40em,
+  medium: 48em,
+  large: 64em
 ) !default;
 
 // Grid
